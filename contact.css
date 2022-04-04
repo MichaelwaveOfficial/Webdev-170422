@@ -1,0 +1,212 @@
+/* variables that will come in handy, makes life a lot easier. 
+Everything before media query covers site in mobile form. */
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --orange: #ff4500;
+    --darkblue: #2f4f4f;
+    --lighterblue: (76, 117, 117);
+    --background: #4ebebe;
+}
+
+
+/* * bits to apply to the whole site*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka',  sans-serif;
+}
+
+body{
+    height: 150vh;
+    background-color: var(--background);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    margin: 2em 2.5em;
+    font-size: 22px;
+}
+
+li a{
+    font-size: 20px;
+    color: var(--white);
+}
+
+.nav a:hover{
+    background-color: transparent;
+    color: var(--orange);
+    font-weight: bolder;
+}
+
+.header{
+    background-color: var(--darkblue);
+    opacity: 85%;
+    box-shadow: 1px 1px 5px 0px var(--gray);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+/* css for logo */
+.name{
+    display: inline-block;
+    color: var(--white);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* defines the colour of the span elements regardless of site width. In this case the M and K initials.*/
+
+* .name span{
+    color: var(--orange);
+}
+
+/* nav bar controls */
+.nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--darkblue);
+    opacity: 85%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+/* the text within the menu */
+.menu a{
+    display: block;
+    padding: 30px;
+    color: var(--white);
+}
+
+/* text properties when user hovers cursor on them.*/
+.menu a:hover{
+    background-color: var(--gray);
+}
+
+/* below is styling for the burger.*/
+
+.hamburger{
+    cursor: pointer;
+    float: right;
+    padding-right:  40px;
+}
+
+/* Styling the span tag */
+
+.hamburger-lines {
+    background: var(--orange);
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 24px;
+    top:20px;
+} 
+
+/* Styles before and after the tag instead of adding more spans. */
+
+.hamburger-lines::before,
+.hamburger-lines::after{
+    background: var(--orange);
+    content: '';
+    display: block;
+    height:  2px;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 24px;
+}
+
+.hamburger-lines::before{
+    top: 5px;
+}
+
+.hamburger-lines::after{
+    top: -5px;
+}
+
+/* Hides ugly checkbox. */
+
+.side-menu {
+    display: none;
+} 
+
+/* Toggling the menu icon */
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+.side-menu:checked ~ .hamburger .hamburger-lines {
+    background: transparent;
+}
+.side-menu:checked ~ .hamburger .hamburger-lines::before {
+    transform: rotate(-45deg);
+    top: 2px;
+}
+.side-menu:checked ~ .hamburger .hamburger-lines::after {
+    transform: rotate(45deg);
+    top: 1px;
+}
+
+/* main contents */
+
+
+footer{
+    display: grid;
+    grid-column: span 4;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+}
+
+/* css for desktop -- might be worth optimising and splitting into own stylesheet*/
+
+@media (min-width: 880px) {
+    .nav{
+        display: flex;
+        margin: 4px;
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+
+    ul li{
+        display: inline;
+        font-size: 20px;
+        margin-right: 2.5em;
+    }
+    
+    li a{
+        color: var(--white);
+    }
+
+    .nav a:hover{
+        background-color: transparent;
+        color: var(--orange);
+        font-weight: bolder;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    
+    footer{
+        display: grid;
+        grid-column: span 4;
+        text-align: center;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+    }
+}
