@@ -157,6 +157,29 @@ li a{
 
 /* main contents */
 
+.contactform{
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px
+}
+
+.mydetails{
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px
+}
+
+.welcomingtext{
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px
+}
 
 footer{
     display: grid;
@@ -200,6 +223,30 @@ footer{
         display: none;
     }
 
+    .contactform{
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px
+    }
+    
+    .mydetails{
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px
+    }
+    
+    .welcomingtext{
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px
+    }
+    
     
     footer{
         display: grid;
