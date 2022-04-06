@@ -157,7 +157,12 @@ li a{
 
 /* main contents */
 
+.container{
+    display: inline;
+}
+
 .contactform{
+    display: grid;
     background-color: darkslategrey;
     color: white;
     opacity: 85%;
@@ -166,6 +171,7 @@ li a{
 }
 
 .mydetails{
+    display: grid;
     background-color: darkslategrey;
     color: white;
     opacity: 85%;
@@ -174,6 +180,7 @@ li a{
 }
 
 .welcomingtext{
+    display: grid;
     background-color: darkslategrey;
     color: white;
     opacity: 85%;
@@ -223,7 +230,17 @@ footer{
         display: none;
     }
 
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .60em;
+        padding-top: .25em;
+        font-size: 18px;
+        height: 100%;
+    }
+
     .contactform{
+        display: grid;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
@@ -232,6 +249,7 @@ footer{
     }
     
     .mydetails{
+        display: grid;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
@@ -240,6 +258,7 @@ footer{
     }
     
     .welcomingtext{
+        display: grid;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
