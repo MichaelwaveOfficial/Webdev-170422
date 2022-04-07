@@ -157,6 +157,46 @@ li a{
 
 /* main contents */
 
+.container{
+    display: inline;
+}
+
+.maincontent{
+    display: grid;
+    grid-column: span 3;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.topic1{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.topic2{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.topic3{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
 
 footer{
     display: grid;
@@ -200,7 +240,52 @@ footer{
         display: none;
     }
 
-    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .60em;
+        padding-top: .25em;
+        font-size: 18px;
+        height: 100%;
+    }
+
+    .maincontent{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .topic1{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .topic2{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .topic3{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
     footer{
         display: grid;
         grid-column: span 4;
