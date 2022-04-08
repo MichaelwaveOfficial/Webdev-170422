@@ -179,6 +179,11 @@ li a{
     margin: 3px;
 }
 
+.blogpicture1 img{
+    height: 100%;
+    width: 100%;
+}
+
 .blogentry2{
     display: grid;
     background-color: darkslategrey;
@@ -197,6 +202,11 @@ li a{
     margin: 3px;
 }
 
+.blogpicture2 img{
+    height: 100%;
+    width: 100%;
+}
+
 .blogentry3{
     display: grid;
     background-color: darkslategrey;
@@ -213,6 +223,11 @@ li a{
     opacity: 85%;
     padding: 10px;
     margin: 3px;
+}
+
+.blogpicture3 img{
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -262,6 +277,7 @@ footer{
         gap: .60em;
         padding-top: .25em;
         font-size: 18px;
+        height: 100%;
     }
 
     .blogentry1{
@@ -282,6 +298,11 @@ footer{
         margin: 3px;
     }
 
+    .blogpicture1 img{
+        height: 100%;
+        width: 100%;
+    }
+
     .blogentry2{
         display: grid;
         background-color: darkslategrey;
@@ -300,6 +321,11 @@ footer{
         margin: 3px;
     }
 
+    .blogpicture2 img{
+        height: 100%;
+        width: 100%;
+    }
+
     .blogentry3{
         display: grid;
         background-color: darkslategrey;
@@ -316,6 +342,11 @@ footer{
         opacity: 85%;
         padding: 10px;
         margin: 3px;
+    }
+
+    .blogpicture3 img{
+        height: 100%;
+        width: 100%;
     }
 
     footer{

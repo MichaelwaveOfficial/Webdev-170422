@@ -161,6 +161,34 @@ li a{
     display: inline;
 }
 
+.writtenreport{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.writtenreport2{
+    display: grid;
+    grid-column: span 3;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.reportvideoembed{
+    display: grid;
+    grid-column: span 2;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
 
 footer{
     display: grid;
@@ -206,7 +234,7 @@ footer{
 
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: .60em;
         padding-top: .25em;
         font-size: 18px;
@@ -222,13 +250,29 @@ footer{
         margin: 3px;
     }
 
-    .reportvideoembed{
+    .writtenreport2{
         display: grid;
+        grid-column: span 3;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
         padding: 10px;
         margin: 3px;
+    }
+
+    .reportvideoembed{
+        display: grid;
+        grid-column: span 2;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .reportvideoembed embed video{
+        height: 100%;
+        width: 100%;
     }
     
     footer{

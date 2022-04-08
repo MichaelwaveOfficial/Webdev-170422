@@ -10,3 +10,7 @@ Here's my submission for the web development assignment. Many many useless, non-
 -- 06/04/2022 --
 
 * html skeletons provided for all pages. Now we can focus on polishing them up. Having thoughts about tweaking the pages colour scheme. 
+
+-- 08/04/2022 -- 
+
+*adding more to the skeleton of the website. Fleshing bits out and fixing errors which were causing issues. Primarily, with not using enough tags and trying to bite off more than i could chew. 
