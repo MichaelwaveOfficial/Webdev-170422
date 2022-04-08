@@ -7,3 +7,6 @@ Here's my submission for the web development assignment. Many many useless, non-
 *each other page has been created and had a similar template to the index page has been attributed. These could very well change in future. However, providing good foundations to work from. 
  Just need to figure out what to fill the empty space with.
  
+-- 06/04/2022 --
+
+* html skeletons provided for all pages. Now we can focus on polishing them up. Having thoughts about tweaking the pages colour scheme. 

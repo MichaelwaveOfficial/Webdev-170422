@@ -157,18 +157,31 @@ li a{
 
 /* main contents */
 
-.container{
-    display: inline;
-
-}
-
 .contactform{
     display: grid;
+    justify-content: center;
     background-color: darkslategrey;
     color: white;
     opacity: 85%;
-    padding: 10px;
-    margin: 3px
+    margin: 4px
+}
+
+form input{
+    font-size: 28px;
+    border-radius: .25em;
+    color: var(--black);
+    width: 400px;
+}
+
+.submit{
+    padding-top: 25px;
+}
+
+.input, label{
+    text-align: center;
+    display: block;
+    padding-top: 25px;
+    font-size: 32px;
 }
 
 .mydetails{
@@ -177,7 +190,11 @@ li a{
     color: white;
     opacity: 85%;
     padding: 10px;
-    margin: 3px
+    margin: 3px;
+}
+
+.mydetails h1{
+    text-align: center;
 }
 
 .welcomingtext{
@@ -186,7 +203,11 @@ li a{
     color: white;
     opacity: 85%;
     padding: 10px;
-    margin: 3px
+    margin: 3px;
+}
+
+.welcomingtext h1{
+    text-align: center;
 }
 
 .detailsPicture{
@@ -258,20 +279,42 @@ footer{
 
     .contactform{
         display: grid;
+        justify-content: center;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
-        padding: 10px;
-        margin: 3px
+        margin: 4px
     }
-    
+
+    form input{
+        font-size: 28px;
+        border-radius: .25em;
+        color: var(--black);
+        width: 400px;
+    }
+
+    .submit{
+        padding-top: 25px;
+    }
+
+    .input, label{
+        text-align: center;
+        display: block;
+        padding-top: 25px;
+        font-size: 32px;
+    }
+
     .mydetails{
         display: grid;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
         padding: 10px;
-        margin: 3px
+        margin: 3px;
+    }
+
+    .mydetails h1{
+        text-align: center;
     }
     
     .welcomingtext{
@@ -279,10 +322,12 @@ footer{
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
-        padding: 10px;
-        margin: 3px
     }
     
+    .welcomingtext h1{
+        text-align: center;
+    }
+
     .detailsPicture{
         display: grid;
         background-color: darkslategrey;

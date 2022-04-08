@@ -157,10 +157,66 @@ li a{
 
 /* main contents */
 
+.container{
+    display: inline;
+}
+
+.blogentry1{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.blogpicture1{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.blogentry2{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.blogpicture2{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.blogentry3{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.blogpicture3{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
 
 footer{
-    display: grid;
-    grid-column: span 4;
     text-align: center;
     background-color: darkslategrey;
     color: white;
@@ -200,10 +256,69 @@ footer{
         display: none;
     }
 
-    
-    footer{
+    .container{
         display: grid;
-        grid-column: span 4;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .60em;
+        padding-top: .25em;
+        font-size: 18px;
+    }
+
+    .blogentry1{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .blogpicture1{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .blogentry2{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .blogpicture2{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .blogentry3{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .blogpicture3{
+        display: grid;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    footer{
         text-align: center;
         background-color: darkslategrey;
         color: white;
