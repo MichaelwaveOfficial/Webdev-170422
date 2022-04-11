@@ -171,48 +171,118 @@ li a{
     margin: 3px;
 }
 
-.topic1{
-    display: grid;
-    background-color: darkslategrey;
-    color: white;
-    opacity: 85%;
-    padding: 10px;
-    margin: 3px;
+.maincontent h1{
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
-.topic1 img{
+.maincontent p{
+    padding: 20px 0px 0px 20px;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.topic1-container{
+    display: grid;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkslategrey;
+    position: relative;
+}
+
+.image{
+    display: block;
     width: 100%;
     height: 100%;
 }
 
-.topic2{
-    display: grid;
-    background-color: darkslategrey;
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: var(--darkblue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.topic1-container:hover .overlay{
+    opacity: 100%;
+}
+
+.textgoeshere{
     color: white;
-    opacity: 85%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.topic2-container{
+    display: grid;
     padding: 10px;
     margin: 3px;
-}
-
-.topic2 img{
-    width: 100%;
-    height: 100%;
-}
-
-.topic3{
-    display: grid;
     background-color: darkslategrey;
-    color: white;
-    opacity: 85%;
+    position: relative;
+}
+
+.topic2-container:hover .overlay{
+    opacity: 100%;
+}
+
+.topic3-container{
+    display: grid;
     padding: 10px;
     margin: 3px;
+    background-color: darkslategrey;
+    position: relative;
 }
 
-.topic3 img{
-    width: 100%;
-    height: 100%;
+.topic3-container:hover .overlay{
+    opacity: 100%;
 }
 
+
+.topic4-container{
+    display: grid;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkslategrey;
+    position: relative;
+}
+
+.topic4-container:hover .overlay{
+    opacity: 100%;
+}
+
+.topic5-container{
+    display: grid;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkslategrey;
+    position: relative;
+}
+
+.topic5-container:hover .overlay{
+    opacity: 100%;
+}
+
+.topic6-container{
+    display: grid;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkslategrey;
+    position: relative;
+}
+
+.topic6-container:hover .overlay{
+    opacity: 100%;
+}
 footer{
     display: grid;
     grid-column: span 4;
@@ -274,46 +344,108 @@ footer{
         margin: 3px;
     }
 
-    .topic1{
+    /* Contaniers ++ overlays for portfolio content. */
+
+    .topic1-container{
         display: grid;
-        background-color: darkslategrey;
-        color: white;
-        opacity: 85%;
         padding: 10px;
         margin: 3px;
+        background-color: darkslategrey;
+        position: relative;
     }
 
-    .topic1 img{
+    .image{
+        display: block;
         width: 100%;
         height: 100%;
     }
 
-    .topic2{
-        display: grid;
-        background-color: darkslategrey;
+    .overlay{
+        height: 100%;
+        width: 100%;
+        background-color: var(--darkblue);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+    }
+
+    .topic1-container:hover .overlay{
+        opacity: 100%;
+    }
+
+    .textgoeshere{
         color: white;
-        opacity: 85%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    }
+
+    .topic2-container{
+        display: grid;
         padding: 10px;
         margin: 3px;
-    }
-
-    .topic2 img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .topic3{
-        display: grid;
         background-color: darkslategrey;
-        color: white;
-        opacity: 85%;
+        position: relative;
+    }
+
+    .topic2-container:hover .overlay{
+        opacity: 100%;
+    }
+
+    .topic3-container{
+        display: grid;
         padding: 10px;
         margin: 3px;
+        background-color: darkslategrey;
+        position: relative;
     }
 
-    .topic3 img{
-        width: 100%;
-        height: 100%;
+    .topic3-container:hover .overlay{
+        opacity: 100%;
+    }
+
+
+    .topic4-container{
+        display: grid;
+        padding: 10px;
+        margin: 3px;
+        background-color: darkslategrey;
+        position: relative;
+    }
+
+    .topic4-container:hover .overlay{
+        opacity: 100%;
+    }
+
+    .topic5-container{
+        display: grid;
+        padding: 10px;
+        margin: 3px;
+        background-color: darkslategrey;
+        position: relative;
+    }
+
+    .topic5-container:hover .overlay{
+        opacity: 100%;
+    }
+
+    .topic6-container{
+        display: grid;
+        padding: 10px;
+        margin: 3px;
+        background-color: darkslategrey;
+        position: relative;
+    }
+
+    .topic6-container:hover .overlay{
+        opacity: 100%;
     }
 
     footer{

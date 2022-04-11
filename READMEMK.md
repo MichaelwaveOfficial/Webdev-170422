@@ -13,4 +13,6 @@ Here's my submission for the web development assignment. Many many useless, non-
 
 -- 08/04/2022 -- 
 
-*adding more to the skeleton of the website. Fleshing bits out and fixing errors which were causing issues. Primarily, with not using enough tags and trying to bite off more than i could chew. 
+* Adding more to the skeleton of the website. Fleshing bits out and fixing errors which were causing issues. Primarily, with not using enough tags and trying to bite off more than i could chew. 
+
+* Grid layouts should mostly resemble the final product and its now time to fill the different objects with the right content and polish things off. Overall, making things look a little nicer and giving that more finished feeling. 
