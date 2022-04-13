@@ -161,7 +161,7 @@ li a{
     display: inline;
 }
 
-.writtenreport{
+.container1{
     display: grid;
     background-color: darkslategrey;
     color: white;
@@ -170,9 +170,13 @@ li a{
     margin: 3px;
 }
 
-.writtenreport2{
+.container1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container2{
     display: grid;
-    grid-column: span 3;
     background-color: darkslategrey;
     color: white;
     opacity: 85%;
@@ -180,7 +184,30 @@ li a{
     margin: 3px;
 }
 
-.reportvideoembed{
+.container3{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.container4{
+    display: grid;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.container4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container5{
     display: grid;
     grid-column: span 2;
     background-color: darkslategrey;
@@ -190,9 +217,25 @@ li a{
     margin: 3px;
 }
 
+.container6{
+    display: grid;
+    grid-column: span 2;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 85%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.container6 img{
+    width: 100%;
+    height: 100%;
+}
+
+
 footer{
     display: grid;
-    grid-column: span 4;
+    position: absolute;
     text-align: center;
     background-color: darkslategrey;
     color: white;
@@ -234,33 +277,15 @@ footer{
 
     .container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: .60em;
         padding-top: .25em;
         font-size: 18px;
         height: 100%;
     }
 
-    .writtenreport{
-        display: grid;
-        background-color: darkslategrey;
-        color: white;
-        opacity: 85%;
-        padding: 10px;
-        margin: 3px;
-    }
-
-    .writtenreport2{
-        display: grid;
-        grid-column: span 3;
-        background-color: darkslategrey;
-        color: white;
-        opacity: 85%;
-        padding: 10px;
-        margin: 3px;
-    }
-
-    .reportvideoembed{
+    .container1{
         display: grid;
         grid-column: span 2;
         background-color: darkslategrey;
@@ -270,14 +295,131 @@ footer{
         margin: 3px;
     }
 
-    .reportvideoembed embed video{
-        height: 100%;
+    .container1 img{
         width: 100%;
+        height: 100%;
+    }
+    
+    .container2{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+    
+    .container3{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+    
+    .container4{
+        display: grid;
+        grid-column: span 2;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }    
+
+    .container4 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container5{
+        display: grid;
+        grid-column: span 2;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .container6{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .container5 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container7{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .container7 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container8{
+        display: grid;
+        grid-column: span 2;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .container8 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container9{
+        display: grid;
+        grid-column: span 2;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .container10{
+        display: grid;
+        grid-column: span 3;
+        background-color: darkslategrey;
+        color: white;
+        opacity: 85%;
+        padding: 10px;
+        margin: 3px;
+    }
+
+
+    .container9 img{
+        width: 100%;
+        height: 100%;
     }
     
     footer{
         display: grid;
-        grid-column: span 4;
+        grid-column: span 5;
+        position: relative; /* essential to keep it at the bottom. */
         text-align: center;
         background-color: darkslategrey;
         color: white;

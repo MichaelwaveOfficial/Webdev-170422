@@ -351,6 +351,7 @@ footer{
 
     footer{
         text-align: center;
+        grid-column: span 3;
         background-color: darkslategrey;
         color: white;
         opacity: 85%;

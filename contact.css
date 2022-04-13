@@ -228,7 +228,7 @@ form input{
 
 footer{
     display: grid;
-    grid-column: span 4;
+    position: relative;
     text-align: center;
     background-color: darkslategrey;
     color: white;
@@ -345,7 +345,8 @@ footer{
     
     footer{
         display: grid;
-        grid-column: span 4;
+        grid-column: span 3;
+        position: relative; /* essential to keep it at the bottom. */
         text-align: center;
         background-color: darkslategrey;
         color: white;

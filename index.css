@@ -20,6 +20,15 @@ Everything before media query covers site in mobile form. */
     font-family: 'Fredoka',  sans-serif;
 }
 
+* h1{
+    font-size: 32px;
+}
+
+* p{
+    padding: 10px;
+    font-size: 20px;
+}
+
 body{
     height: 150vh;
     background-color: var(--background);
