@@ -20,6 +20,15 @@ Everything before media query covers site in mobile form. */
     font-family: 'Fredoka',  sans-serif;
 }
 
+* h1{
+    font-size: 36px;
+}
+
+* p{
+    padding: 10px;
+    font-size: 22px;
+}
+
 body{
     height: 150vh;
     background-color: var(--background);
@@ -197,6 +206,13 @@ form input{
     text-align: center;
 }
 
+.mydetails img{
+    padding-top: 15px;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+}
+
 .welcomingtext{
     display: grid;
     background-color: darkslategrey;
@@ -283,18 +299,22 @@ footer{
         background-color: darkslategrey;
         color: white;
         opacity: 85%;
-        margin: 4px
+        padding: 15px;
     }
 
-    form input{
+    .contactform h1{
+        text-align: center;
+    }
+
+    input[type=text] {
         font-size: 28px;
         border-radius: .25em;
         color: var(--black);
         width: 400px;
     }
-
-    .submit{
-        padding-top: 25px;
+    
+    input[type=submit]{
+        align-items: center;
     }
 
     .input, label{
