@@ -6,7 +6,7 @@ Everything before media query covers site in mobile form. */
     --white: #fff;
     --orange: #ff4500;
     --darkblue: #2f4f4f;
-    --lighterblue: (76, 117, 117);
+    --lighterblue: #ADD8E6;
     --background: #4ebebe;
 }
 
@@ -365,9 +365,10 @@ footer{
         margin: 3px;
     }
 
+
     .container1 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     
     .container2{
@@ -402,7 +403,7 @@ footer{
 
     .container4 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .container5{
@@ -427,7 +428,7 @@ footer{
 
     .container5 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .container7{
@@ -442,7 +443,7 @@ footer{
 
     .container7 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .container8{
@@ -457,7 +458,7 @@ footer{
 
     .container8 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .container9{
@@ -483,7 +484,7 @@ footer{
 
     .container9 img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .container11{

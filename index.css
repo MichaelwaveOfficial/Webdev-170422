@@ -6,7 +6,7 @@ Everything before media query covers site in mobile form. */
     --white: #fff;
     --orange: #ff4500;
     --darkblue: #2f4f4f;
-    --lighterblue: (76, 117, 117);
+    --lighterblue: #ADD8E6;
     --background: #4ebebe;
 }
 
@@ -208,9 +208,7 @@ li a{
     opacity: 85%;
     padding: 10px;
     margin: 3px;
-    object-fit: fill;
-    height:"400px"; 
-    width:"600px"; 
+    object-fit: fill; 
 }
 
 .bottom-right img{
@@ -312,8 +310,6 @@ footer{
         padding: 10px;
         margin: 3px;
         object-fit: fill;
-        height:"400px"; 
-        width:"600px"; 
     }
     
     .bottom-right img{
